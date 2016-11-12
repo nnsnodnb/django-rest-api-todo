@@ -19,9 +19,6 @@ class ApiTaskViewSet(viewsets.ModelViewSet):
     def create(self, request):
         return self.forbidden()
 
-    def retrieve(self, request, pk = None):
-        return self.forbidden()
-
     def update(self, request, pk = None):
         return self.forbidden()
 
