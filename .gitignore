@@ -190,3 +190,4 @@ fabric.properties
 *.pyc
 db.sqlite3
 media
+staticfiles
